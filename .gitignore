@@ -9,13 +9,6 @@
 
 # production
 /build
-
-/app
-/components
-/lib
-/hooks
-/public
-/styles
 # debug
 npm-debug.log*
 yarn-debug.log*
@@ -31,3 +24,25 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+
+git add .
+git commit -m "everythings updated" --date="2025-11-06"
+git push -u origin main
+
+git add app/api/pdf/upload
+git commit -m "upload route added" --date="2025-11-04"
+git push -u origin main
+ 
+git add app/auth/login/
+git commit -m "login page added" --date="2025-11-04"
+git push -u origin main
+
+git add app/dashboard/file/docx-convert
+git commit -m "docx-convert page added" --date="2025-11-04"
+git push -u origin main
+
+git add app/dashboard/pdf/chat/
+git commit -m "chat page added" --date="2025-11-04"
+git push -u origin main
