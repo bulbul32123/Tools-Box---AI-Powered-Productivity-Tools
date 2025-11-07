@@ -91,7 +91,7 @@ export function DashboardLayout({ children, user }: DashboardLayoutProps) {
         <div className="flex h-full flex-col">
           {/* Logo */}
           <div className="flex h-16 items-center justify-between px-6 border-b border-sidebar-border">
-            <h1 className="text-xl font-bold text-sidebar-foreground">ToolSuite</h1>
+            <h1 className="text-xl font-bold text-sidebar-foreground">Tools box</h1>
             <Button variant="ghost" size="sm" className="lg:hidden" onClick={() => setSidebarOpen(false)}>
               <XIcon className="h-5 w-5" />
             </Button>
